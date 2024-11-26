@@ -1,0 +1,32 @@
+{
+    "amperBuild": "0.5.0+e7ace8b",
+    "configuration": {
+        "jdk.url": "https://corretto.aws/downloads/resources/21.0.1.12.1/amazon-corretto-21.0.1.12.1-macosx-aarch64.tar.gz",
+        "kotlin.version": "2.0.21",
+        "target.platforms": "JVM",
+        "task.output.root": "/Users/conorhaworth/Developer/advent-of-code-2015-kotlin/build/tasks/_advent-of-code-2015-kotlin_compileJvm",
+        "user.settings": "{\"kotlin\":{\"languageVersion\":\"Kotlin20\",\"apiVersion\":\"Kotlin20\",\"allWarningsAsErrors\":false,\"suppressWarnings\":false,\"debug\":true,\"verbose\":false,\"progressiveMode\":false,\"languageFeatures\":[],\"optIns\":[],\"freeCompilerArgs\":[],\"serializationEnabled\":false,\"parcelizeEnabled\":false,\"parcelizeAdditionalAnnotations\":[],\"composeEnabled\":false},\"jvmRelease\":\"VERSION_17\"}"
+    },
+    "inputs": [
+        "/Users/conorhaworth/Developer/advent-of-code-2015-kotlin/src",
+        "/Users/conorhaworth/Developer/advent-of-code-2015-kotlin/resources",
+        "/Users/conorhaworth/Library/Caches/Amper/.m2.cache/org/jetbrains/kotlin/kotlin-stdlib/2.0.21/kotlin-stdlib-2.0.21.jar",
+        "/Users/conorhaworth/Library/Caches/Amper/.m2.cache/org/jetbrains/annotations/13.0/annotations-13.0.jar"
+    ],
+    "inputsState": {
+        "/Users/conorhaworth/Developer/advent-of-code-2015-kotlin/resources/day01.txt": "size 7000 mtime 2024-11-26T20:32:01.292106576Z",
+        "/Users/conorhaworth/Developer/advent-of-code-2015-kotlin/src/day01.txt.kt": "size 640 mtime 2024-11-26T20:35:59.599055325Z",
+        "/Users/conorhaworth/Library/Caches/Amper/.m2.cache/org/jetbrains/annotations/13.0/annotations-13.0.jar": "size 17536 mtime 2024-11-26T16:44:08.272357502Z mode 420 owner conorhaworth group staff",
+        "/Users/conorhaworth/Library/Caches/Amper/.m2.cache/org/jetbrains/kotlin/kotlin-stdlib/2.0.21/kotlin-stdlib-2.0.21.jar": "size 1747660 mtime 2024-11-26T16:44:07.518055743Z mode 420 owner conorhaworth group staff"
+    },
+    "outputs": [
+        "/Users/conorhaworth/Developer/advent-of-code-2015-kotlin/build/tasks/_advent-of-code-2015-kotlin_compileJvm"
+    ],
+    "outputsState": {
+        "/Users/conorhaworth/Developer/advent-of-code-2015-kotlin/build/tasks/_advent-of-code-2015-kotlin_compileJvm/Day01_txtKt$read$1.class": "size 580 mtime 2024-11-26T20:36:02.715245011Z",
+        "/Users/conorhaworth/Developer/advent-of-code-2015-kotlin/build/tasks/_advent-of-code-2015-kotlin_compileJvm/Day01_txtKt.class": "size 3880 mtime 2024-11-26T20:36:02.715125177Z",
+        "/Users/conorhaworth/Developer/advent-of-code-2015-kotlin/build/tasks/_advent-of-code-2015-kotlin_compileJvm/META-INF/main.kotlin_module": "size 41 mtime 2024-11-26T20:36:02.720301565Z",
+        "/Users/conorhaworth/Developer/advent-of-code-2015-kotlin/build/tasks/_advent-of-code-2015-kotlin_compileJvm/day01.txt": "size 7000 mtime 2024-11-26T20:36:02.727703625Z"
+    },
+    "outputProperties": {}
+}
