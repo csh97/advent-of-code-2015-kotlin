@@ -1,4 +1,4 @@
-fun part1(input: String): Int {
+private fun part1(input: String): Int {
     return input.toCharArray().fold(0) { floor, char ->
         when(char) {
             '(' -> floor + 1
@@ -8,7 +8,7 @@ fun part1(input: String): Int {
     }
 }
 
-fun part2(input: String): Int {
+private fun part2(input: String): Int {
     return input.toCharArray().fold(0 to 0) { (floor, index), char ->
         if (floor == -1) return@part2 index
         when(char) {
